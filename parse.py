@@ -9,8 +9,6 @@ def extract_links(path):
 
     with open(path) as f:
         lines = f.readlines()
-        columns = []
-
         for line in lines:
             matches = tiktok_pattern.findall(line)
             if len(matches) > 0:
