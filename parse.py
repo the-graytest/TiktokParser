@@ -1,5 +1,4 @@
 import re
-import asyncio
 import json
 
 # Usage python parse.py >> results.txt
